@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3c2464a8-7726-498d-8aaf-4a1aa63cb8a1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60792/Service/SinhVien.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SinhVien.xsd" MetadataType="Schema" ID="7bf3ab71-1c16-45d6-af59-7c411314c14e" SourceId="1" SourceUrl="http://localhost:60792/Service/SinhVien.svc?xsd=xsd0" />
+    <MetadataFile FileName="SinhVien1.xsd" MetadataType="Schema" ID="6b3e1977-2eb6-4c48-a836-0bb18d951ccd" SourceId="1" SourceUrl="http://localhost:60792/Service/SinhVien.svc?xsd=xsd2" />
+    <MetadataFile FileName="SinhVien.disco" MetadataType="Disco" ID="2305ba59-89b1-4ad4-94c5-13d22b1dc142" SourceId="1" SourceUrl="http://localhost:60792/Service/SinhVien.svc?disco" />
+    <MetadataFile FileName="SinhVien2.xsd" MetadataType="Schema" ID="6d6756c2-ce78-45f5-9ea0-ab4b7b7f1a05" SourceId="1" SourceUrl="http://localhost:60792/Service/SinhVien.svc?xsd=xsd1" />
+    <MetadataFile FileName="SinhVien.wsdl" MetadataType="Wsdl" ID="d118967e-2cd1-476c-954b-0d71f968aac6" SourceId="1" SourceUrl="http://localhost:60792/Service/SinhVien.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
